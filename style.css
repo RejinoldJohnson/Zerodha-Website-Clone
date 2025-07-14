@@ -1,0 +1,209 @@
+body {
+    font-family: 'Roboto Regular', sans-serif;
+}
+.border {
+    padding: 20px;
+    border-bottom: 2px solid rgb(229, 224, 224);
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    background-color: white;
+}
+ul {
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    margin-right: 100px;
+}
+li{ 
+    display: inline-block;
+    list-style:none;
+    margin-right: 40px;
+    font-size: 15px;
+    height: 0;
+}
+li a {
+    text-decoration: none;
+    color: rgb(122, 117, 117);
+}
+li a:hover {
+    text-decoration: underline;
+    color: rgb(163, 208, 236);
+}
+.logo {
+    width: 130px;
+    height: auto;
+    padding: 0;
+    margin-left: 100px;
+}
+.center-image {
+    display: flex;
+    margin-top:70px;
+}
+.center-image img {
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.text-container {
+    text-align: center; 
+    margin-top: 70px; 
+}
+
+.text-container h1 {
+    font-size: 3rem; 
+    margin-bottom: 10px; 
+    color: rgb(59, 57, 57);
+    font-weight: 500;
+}
+
+.text-container p {
+    font-size: 1.5rem; /* Adjusts the paragraph size */
+    margin: 0; /* Removes default margin */
+    margin-top: 20px;
+    color: rgb(88, 85, 85);
+    font-weight: 200;
+}
+.signupfree {
+    text-align: center;
+    margin-top: 30px;
+}
+.signupfree .button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: rgb(47, 142, 230);
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 1.2rem; 
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  
+}
+.signupfree .button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+.ecosystem{
+    text-align: center;
+    margin-top: 50px;
+    padding-right: 10px;
+}
+.ecosystem-img {
+    width: 500px; /* Makes the image smaller */
+    height: auto; /* Maintains the aspect ratio */
+}
+.product-details {
+    display: flex; /* Enables flexbox layout */
+    align-items: flex-start; /* Aligns items at the top */
+    gap: 50px; /* Adds space between the image and the text */
+    margin-top: 100px; /* Adds space above the section */
+    padding: 0 150px; 
+}
+.product-details h1 {
+    font-size: 2rem; /* Adjusts the header size */
+    color: rgb(56, 55, 55); /* Matches the color scheme */
+    margin-bottom: 0%;
+    font-weight: 575;
+}
+.product-details h2 {
+    color: rgb(68, 67, 67); /* Matches the color scheme */
+    font-weight: 575;
+}
+.product-details ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Removes default list styling */
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    flex: 1;
+    gap: 120px; /* Adds space between items */
+    color: rgb(106, 102, 102);    
+}
+.product-hyper1{
+    margin-top: 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(47, 142, 230);
+}
+.product-hyper1:hover {
+    color: black;
+    text-decoration: underline;
+}
+.press-logo {
+    display: flex;
+    margin-top:90px;
+    justify-content: center;
+}
+.pricing {
+    text-align: left;
+    margin-top: 50px;
+    padding-right: 0 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 50px;
+}
+.unbeatable-pricing{
+    flex: 1;
+    max-width: 50%;
+    text-align: left; /* Aligns items at the top */
+    gap: 50px; /* Adds space between the image and the text */
+    margin-top: 100px; /* Adds space above the section */
+    padding-right:50px;
+}
+.pricing h1 {
+    font-size: 2rem; /* Adjusts the header size */
+    color: rgb(56, 55, 55); /* Matches the color scheme */
+    margin-bottom: 0%;
+    font-weight: 575;
+}
+.pricing h3 {
+    color: rgb(68, 67, 67); /* Matches the color scheme */
+    font-weight: 575;
+}
+.pricing-redirect {
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(47, 142, 230);
+}
+.pricing-redirect:hover {
+    color: black;
+    text-decoration: underline;
+}
+.pricing-info {
+    display: flex; /* Enables flexbox layout */
+    align-items: flex-start; /* Aligns items at the top */
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 50px;
+    justify-content: right;
+    padding: 0 100px;
+}
+.price-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 200px;
+    text-align: left;
+    
+}
+.price-img {
+    width: 100px; /* Makes the image smaller */
+    height: auto; /* Maintains the aspect ratio */
+    
+}
+.price-label {
+    margin-top: 15px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: rgb(56, 55, 55);
+    flex-wrap: wrap;
+}
